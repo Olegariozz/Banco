@@ -12,7 +12,7 @@ Um pequeno programa em Python que simula um sistema de login e transações banc
 ## Regras
 
 - Usuário válido: `Olegario`
-- Senha válida: `Guico30@`
+- Senha válida: `1234`
 - Saldo inicial: R$2500,00
 
 ## Código
@@ -22,7 +22,7 @@ try:
     usuario = input("Digite o nome do usuário: ")
     senha = input("Digite a senha: ")
 
-    if usuario == "Olegario" and senha == "Guico30@":
+    if usuario == "Olegario" and senha == "1234":
         print("Bem-vindo ao Banco Sr.Olegario!")
         print("Deseja fazer alguma transação?")
 
@@ -68,7 +68,7 @@ except ValueError:
 
 ```
 Digite o nome do usuário: Olegario
-Digite a senha: Guico30@
+Digite a senha: 1234
 Bem-vindo ao Banco Sr.Olegario!
 Deseja fazer alguma transação?
 Digite 1-TRANSFERÊNCIA | 2-SALDO: 2
