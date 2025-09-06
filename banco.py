@@ -15,14 +15,18 @@ try:
                 print("Seu saldo é de R$2500,00")
             elif escolha.upper() == "NÃO":
                 print("Obrigado por usar nosso banco, volte sempre!")
-            else: 
-                valor = float(input("Qual o valor da transferência? R$"))
-                if valor <= 2500:
-                    print("Transferência realizada com sucesso!")
-                else:
-                    print("Saldo insuficiente para realizar a transferência.")
+            else:
+                print("Opção inválida.")
+
+        elif opcao == "1":
+            valor = float(input("Qual o valor da transferência? R$"))
+            if valor <= 2500:
+                print("Transferência realizada com sucesso!")
+            else:
+                print("Saldo insuficiente para realizar a transferência.")
         else:
             print("Opção inválida, tente novamente.")
+
     else:
         print("Usuário ou senha incorretos. Tente novamente.")       
 
